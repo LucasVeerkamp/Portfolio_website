@@ -2,7 +2,7 @@
 body {
     
     background-image: linear-gradient(180deg, transparent 10%, grey,black, grey,black);
-    background-image: url(/Users/lucasveerkamp/Documents/website/images/idle_animation\ .gif);
+    background-image: url(/Users/lucasveerkamp/Documents/website/images/idle_animation%20\ .gif);
     background-size: cover;
     background-repeat: repeat-y, repeat-x;
     display: flex;
@@ -14,8 +14,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, transparent 10%, grey, black);
+    background: linear-gradient(180deg, transparent 10%, grey, black, #eb3486);
     opacity: 0.2; /* 20% transparency for the overlay */
+    mix-blend-mode: difference;
     pointer-events: none; /* Allow interaction with underlying elements */
     z-index: 1; /* Place above the GIF */
   }
