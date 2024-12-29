@@ -2,7 +2,7 @@
 body {
     
     background-image: linear-gradient(180deg, transparent 10%, grey,black, grey,black);
-    background-image: url(/Users/lucasveerkamp/Documents/website/images/idle_animation%20\ .gif);
+    background-image: url(/Users/lucasveerkamp/Documents/website/images/idle-animation.gif);
     background-size: cover;
     background-repeat: repeat-y, repeat-x;
     display: flex;
