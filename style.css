@@ -4,7 +4,8 @@ body {
     background-image: linear-gradient(180deg, transparent 10%, grey,black, grey,black);
     background-image: url(/Users/lucasveerkamp/Documents/website/images/idle_animation\ .gif);
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y, repeat-x;
+    display: flex;
   }
   body::before {
     content: "";
@@ -42,7 +43,7 @@ body {
 
 .change-text span {
   animation-name: fontChange;
-  animation-duration: 3.5s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   display: inline-block;
