@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Contrail+One&family=Permanent+Marker&family=Playwrite+GB+S+Guides:ital@0;1&family=Reenie+Beanie&family=Rubik+Mono+One&family=Rubik+Vinyl&family=Silkscreen:wght@400;700&display=swap');
 body {
     
     background-image: linear-gradient(180deg, transparent 10%, grey,black, grey,black);
@@ -18,13 +19,70 @@ body {
     z-index: 1; /* Place above the GIF */
   }
 
-.name_title{
-    text-align: center;
-    -webkit-text-fill-color: whitesmoke;
-    background-color: ;
-    text-shadow: olivedrab 20px;
-    background-image: linear-gradient(to right, grey,black, grey,black);
-    text-shadow: 0 0 5px black; /* Improve text visibility with shadow */
-    z-index: 2; /* Ensure it’s above the overlay */
-    
+/* Importing Google Fonts */
+
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.change-text {
+  font-size: 20pt;
+  color: #eb3486;
+  display: flex;
+  gap: 5px; /* Adjust gap between letters */
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.change-text span {
+  animation-name: fontChange;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  display: inline-block;
+}
+
+.change-text span:nth-child(1) { animation-delay: 0s; }
+.change-text span:nth-child(2) { animation-delay: 0.6s; }
+.change-text span:nth-child(3) { animation-delay: 1.2s; }
+.change-text span:nth-child(4) { animation-delay: 1.8s; }
+.change-text span:nth-child(5) { animation-delay: 2.2s; }
+.change-text span:nth-child(6) { animation-delay: 2.8s; }
+.change-text span:nth-child(7) { animation-delay: 3.2s; }
+.change-text span:nth-child(8) { animation-delay: 3.8s; }
+.change-text span:nth-child(9) { animation-delay: 4.2s; }
+.change-text span:nth-child(10) { animation-delay: 4.8s; }
+.change-text span:nth-child(11) { animation-delay: 5.2s; }
+.change-text span:nth-child(12) { animation-delay: 5.8s; }
+.change-text span:nth-child(13) { animation-delay: 6.2s; }
+.change-text span:nth-child(14) { animation-delay: 6.8s; }
+
+@keyframes fontChange {
+  0% {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  16% {
+    font-family: 'Contrail One', cursive;
+  }
+  32% {
+    font-family: 'Permanent Marker', cursive;
+  }
+  48% {
+    font-family: 'Playwrite GB S Guides', serif;
+  }
+  64% {
+    font-family: 'Reenie Beanie', cursive;
+  }
+  80% {
+    font-family: 'Rubik Mono One', sans-serif;
+  }
+  100% {
+    font-family: 'Silkscreen', monospace;
+  }
 }
