@@ -13,8 +13,8 @@
 *.m4a
 *.obj
 *.fbx
-*.gif
+
 *.heic
 
-/images/
+
 /songs/
