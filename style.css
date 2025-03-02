@@ -230,8 +230,6 @@ body::before {
 
 }
 
-
-
 .textLOL {
   font-size: min(7vw, 50pt);
   font-family: 'Rubik Mono One', sans-serif;
@@ -246,6 +244,15 @@ body::before {
   font-family: 'Rubik Mono One', sans-serif;
   gap: 10px;
   color: #eb3486;
+}
+
+.AboutMeFoto{
+  size-adjust: 10px;
+  max-width: 30vw;
+  border-color: #eb3486;
+  border-radius: 50%;
+  border-style: dotted;
+  border-width: 1vw;
 }
 
 /* Responsive Design */
