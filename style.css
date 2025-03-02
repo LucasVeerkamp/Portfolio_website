@@ -30,11 +30,13 @@ body::before {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 40vw; /* Remove full height restriction */
+  height: 40vw;
+  /* Remove full height restriction */
   width: 100vw;
   padding: 0;
   margin: 0;
-  gap: 0; /* Ensures no space between */
+  gap: 0;
+  /* Ensures no space between */
 }
 
 .containerPortfolio {
@@ -156,7 +158,8 @@ body::before {
 
 /* Styling for the Portfolio Box */
 .portfolio-box {
-  margin-top: 0px; /* Space between name and button */
+  margin-top: 0px;
+  /* Space between name and button */
   padding: 10px 20px;
   background-color: #eb3486;
   text-align: center;
@@ -184,6 +187,7 @@ body::before {
 
 
 .AVC {
+  font-size: 50pt;
   font-family: 'Bebas Neue', sans-serif;
   display: flex;
   flex-direction: column;
@@ -223,9 +227,9 @@ body::before {
   display: flex;
   width: 90vw;
   border-width: 0px;
-  border: 15px solid palevioletred;
-  border-radius: 5%;
-  padding: 20px;
+  border: 10px solid palevioletred;
+  border-radius: 7%;
+  padding: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
   margin: 40px;
@@ -240,3 +244,55 @@ body::before {
   justify-content: space-around;
 }
 
+.textLOL {
+  font-size: 50pt;
+  font-family: 'Rubik Mono One', sans-serif;
+  gap: 10px;
+  color: #eb3486;
+  -webkit-text-stroke: pink;
+  -webkit-text-stroke-width: 1px;
+}
+
+.AboutMeP{
+  font-size: 12pt;
+  font-family: 'Rubik Mono One', sans-serif;
+  gap: 10px;
+  color: #eb3486;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .AVC {
+    font-size: 10vw;
+  }
+
+  .change-text {
+    font-size: 6vw;
+  }
+
+  .portfolio-box a {
+    font-size: 6vw;
+  }
+
+  .BasicText {
+    font-size: 3vw;
+  }
+
+  .textLOL {
+    font-size: 6vw;
+  }
+
+  .AboutMeP {
+    font-size: 3vw;
+  }
+
+  .projectenBox {
+    flex-direction: column;
+    width: 95%;
+    padding: 5px;
+    border-width: 5px;
+  }
+}
