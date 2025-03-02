@@ -13,8 +13,7 @@
 *.m4a
 *.obj
 *.fbx
-
 *.heic
-
+*.DS_Store
 
 /songs/
