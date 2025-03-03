@@ -269,7 +269,7 @@ body::before {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .container {
     width: 95%;
   }
