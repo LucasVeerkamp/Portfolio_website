@@ -60,6 +60,16 @@ body::before {
   text-align: center;
 }
 
+.change-text2 {
+  font-size: min(3vw, 30pt);
+  color: #eb3486;
+  display: flex;
+  /* Adjust gap between letters */
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 800px
+}
+
 .change-text span {
   animation-name: fontChange;
   animation-duration: 6s;
@@ -67,6 +77,7 @@ body::before {
   animation-timing-function: ease-in-out;
   display: inline-block;
 }
+
 
 .change-text span:nth-child(1) {
   animation-delay: 0s;
@@ -166,6 +177,10 @@ body::before {
   display: inline-block;
   text-transform: uppercase;
   transition: font-weight 0.2s ease-in-out;
+}
+
+.change-text:hover {
+  color: white;
 }
 
 /* Styling the text inside the button */
